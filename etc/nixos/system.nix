@@ -26,5 +26,9 @@
 
   services.openssh.enable = true;
 
+  services.kmscon.enable = true;
+  services.kmscon.extraConfig = ''
+  '';
+
   services.nixosManual.showManual = true;
 }
