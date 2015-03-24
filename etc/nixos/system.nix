@@ -12,6 +12,7 @@
     wget
     git
     file
+    emacs
   ];
 
   networking.hostName = "REMYSERVER";
@@ -27,8 +28,7 @@
   services.openssh.enable = true;
 
   services.kmscon.enable = true;
-  services.kmscon.extraConfig = ''
-  '';
+  services.kmscon.extraConfig = "font-size=14";
 
   services.nixosManual.showManual = true;
 }
