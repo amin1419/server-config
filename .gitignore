@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Whitelist configurations
+!.gitignore
+!etc
+!etc/nixos
+!etc/nixos/configuration.nix
+!etc/nixos/hardware-configuration.nix
+!etc/nixos/boot.nix
+!etc/nixos/locale.nix
+!etc/nixos/users.nix
+!etc/nixos/system.nix
+!etc/nixos/haproxy.nix
+!etc/nixos/containers.nix
+!etc/nixos/containers/*
