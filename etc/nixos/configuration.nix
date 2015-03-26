@@ -6,5 +6,6 @@
       ./passwords.nix
       ./users.nix
       ./system.nix
+      ./containers.nix
     ];
 }

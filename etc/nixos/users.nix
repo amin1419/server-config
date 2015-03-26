@@ -17,6 +17,8 @@
     uid = 1001;
   };
 
+  environment.shellInit = "export NIXPKGS=/home/remy/nixpkgs/";
+
   environment.shellAliases = {
     ls = "ls --color=auto -FX";
     l = "ls";
@@ -57,6 +59,8 @@
     gps = "git push";
     gst = "git status";
     gdf = "git diff";
+
+    nxr = "nixos-rebuild -I nixos=$NIXPKGS/nixos -I nixpkgs=$NIXPKGS ";
   };
 
   users.mutableUsers = false;
