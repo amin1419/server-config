@@ -2,7 +2,8 @@
 
 {
   imports =
-    [ ./boot.nix
+    [ ./kernel.nix
+      ./boot.nix
       ./locale.nix
       ./haproxy.nix
     ];

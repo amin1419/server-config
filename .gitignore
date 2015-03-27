@@ -8,6 +8,7 @@
 !etc/nixos/configuration.nix
 !etc/nixos/hardware-configuration.nix
 !etc/nixos/boot.nix
+!etc/nixos/kernel.nix
 !etc/nixos/locale.nix
 !etc/nixos/users.nix
 !etc/nixos/system.nix
